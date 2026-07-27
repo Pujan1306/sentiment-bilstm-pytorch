@@ -1,0 +1,15 @@
+[project]
+name = "sentiment-bilstm-pytorch"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "torch",
+    "mlflow",
+    "pandas-stubs~=2.3.3",
+    "pandas>=2.3.3",
+    "mlflow",
+    "scikit-learn>=1.9.0",
+    "mlflow-skinny>=3.14.0",
+    "fastapi",
+    "pydantic>=2.13.4",
+]
